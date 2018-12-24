@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
+	//在pom中加了api的依赖，所以能引入IHello
     @Reference
     private IHello hello;
 
